@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch checkpoints and raw weight binaries (keep repo lightweight)
+*.pt
+*.pth
+*.ckpt
+*.bin
+fsl_har_checkpoints/
+
+# Raw dataset files and large processed archives
+data/
+datasets/
+DS_ADL/
+fsl_har_processed/
+*.zip
+*.tar.gz
+*.7z
+*.mat
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Internal development / scratch / temporary scripts
+scratch/
+.system_generated/
+*.docx
+sample report.docx
+project_report*.docx
+methodology_report*.docx
+README_Humcare_ADL.docx
+thesis_project_plan.pdf
+"BASE TRAINING*.pdf"
+"DATASETS AND*.pdf"
+"EVALUATION METHODS*.pdf"
+Notebooks.pdf
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LaTeX compilation temporaries (if compiling locally)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# OS generated files
+.DS_Store
+Thumbs.db
