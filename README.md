@@ -1,6 +1,5 @@
 ############################################################################
- Cross-Subject Generalization and Few-Shot Personalization in Wearable Sensing: A
-Comparative Study
+  Cross-Subject Generalization and Few-Shot Personalization in Wearable Sensing: A Comparative Study
  
              Rabdaa Amjad, Muhammad Hassan Khan,* Muhammad Adeel Nisar
 
@@ -14,7 +13,7 @@ Comparative Study
 
 ## Overview
 
-This repository contains the complete codebase used to perform data preprocessing, multi-stream backbone pre-training, few-shot meta-learning, subject-specific personalization, and empirical result visualization for the study *"The Ceiling Effect in Few-Shot Personalization: How Baseline Accuracy Shapes the Limits of User Adaptation in Wearable Activity Recognition"*. 
+This repository contains the complete codebase used to perform data preprocessing, multi-stream backbone pre-training, few-shot meta-learning, subject-specific personalization, and empirical result visualization for the study *"Cross-Subject Generalization and Few-Shot Personalization in Wearable Sensing: A Comparative Study"*. 
 
 The framework systematically evaluates three multi-stream backbone architectures (**1D Convolutional Neural Network**, **Bidirectional LSTM**, and **Sensor-as-Token Transformer**) paired with four few-shot adaptation strategies (**Prototypical Networks**, **First-Order MAML**, **Latent Embedding Exploitation (LEE)**, and **Supervised Contrastive Learning (SupCon)**) across five heterogeneous multimodal wearable benchmark datasets:
 1. **WISDM** (51 subjects, 18 activities, Smartphone + Smartwatch)
@@ -114,7 +113,7 @@ If you find this codebase or paper useful in your research, please cite:
 
 ```bibtex
 @article{fsl_har_ceiling_effect,
-  title   = {The Ceiling Effect in Few-Shot Personalization: How Baseline Accuracy Shapes the Limits of User Adaptation in Wearable Activity Recognition},
+  title   = {Cross-Subject Generalization and Few-Shot Personalization in Wearable Sensing: A Comparative Study},
   author  = {Amjad, Rabdaa and Khan, Muhammad Hassan and Nisar, Muhammad Adeel},
   journal = {Multimedia Tools and Applications},
   year    = {2026}
