@@ -1,6 +1,6 @@
 ############################################################################
-  The Ceiling Effect in Few-Shot Personalization: How Baseline Accuracy
-    Shapes the Limits of User Adaptation in Wearable Activity Recognition
+ Cross-Subject Generalization and Few-Shot Personalization in Wearable Sensing: A
+Comparative Study
  
              Rabdaa Amjad, Muhammad Hassan Khan,* Muhammad Adeel Nisar
 
